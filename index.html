@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Euler 069 - Totient Maximum</title>
     <!-- Load Styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Set Up Headers -->
     <header class="container-fluid text-center">
@@ -18,7 +21,9 @@
 
     <!-- Set Up Instructions (including table) -->
     <section class="container-fluid">
-        <p>Euler's Totient function, &phi;(n) (sometimes called the phi function), is used to determine the number of numbers less than n which are relatively prime to n.  For example, as 1, 2, 4, 5, 7, and 8, are all less than nine and relatively prime to nine, &phi;(9) = 6.</p>
+        <p>Euler's Totient function, &phi;(n) (sometimes called the phi function), is used to determine the number of
+            numbers less than n which are relatively prime to n. For example, as 1, 2, 4, 5, 7, and 8, are all less than
+            nine and relatively prime to nine, &phi;(9) = 6.</p>
         <table class="table table-borderless table-sm">
             <thead>
                 <tr>
@@ -84,9 +89,10 @@
                     <td>2.5</td>
                 </tr>
             </tbody>
-            
+
         </table>
-        <p>It can be seen that n=6 produces a maximum n/&phi;(n) for n &le; 10.  Find the value of n &le; limit for which n/&phi;(n) is a maximum.  Begin by entering a number.</p>
+        <p>It can be seen that n=6 produces a maximum n/&phi;(n) for n &le; 10. Find the value of n &le; limit for which
+            n/&phi;(n) is a maximum. Begin by entering a number.</p>
     </section>
 
     <!-- Set Up Form -->
@@ -95,7 +101,9 @@
             <!-- Set Up Label and Input -->
             <article class="mb-3">
                 <label for="mynumber" class="form-label">Number (Required)</label>
-                <input class="form-control" placeholder="Enter whole number between 10 and 1000000 (without leading zeros)" title="Enter whole number between 10 and 1000000 (without leading zeros)" id="mynumber">
+                <input class="form-control"
+                    placeholder="Enter whole number between 10 and 1000000 (without leading zeros)"
+                    title="Enter whole number between 10 and 1000000 (without leading zeros)" id="mynumber">
             </article>
 
             <!-- Set Up and Center Buttons -->
@@ -112,4 +120,5 @@
         <script src="js/script.js"></script>
     </section>
 </body>
+
 </html>
