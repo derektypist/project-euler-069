@@ -9,7 +9,7 @@ function getNumberInfo() {
         txt += `Invalid Input.  Please enter a whole number between 10 and 1000000.  Do not include leading zeros.`;
     } else {
         txt += `You have entered the number ${num}. <p>`;
-        txt += `Value of n ≤ for which n/φ(n) is a maximum is ${totientMaximum(num)}.`
+        txt += `Value of n ≤ ${num} for which n/φ(n) is a maximum is ${totientMaximum(num)}.`
     }
     
     // Display Information in the Browser
@@ -39,7 +39,7 @@ function totientMaximum(limit) {
             }
             if (i===2) i=1;
         }
-        return primesMap;
+        return primes;
     }
 
     const MAX_PRIME = 50;
