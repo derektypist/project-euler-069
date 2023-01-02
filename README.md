@@ -123,7 +123,7 @@ Ensure all user stories have been met.
 
 On the terminal, enter the command:
 
-`python3 -m http.server`, then preview.
+`python3 -m http.server`, press `enter` and select `Open Preview`.
 
 ## Deployment
 
