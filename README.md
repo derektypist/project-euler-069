@@ -111,4 +111,9 @@ The function `totientMaximum(limit)` returns a number, where `limit` is a number
 
 ## Features
 
-Allows the user to enter a number.
+Allows the user to enter a number in order to find the value of n &le; (number entered) for which n/&phi;(n) is a maximum.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.3.0-alpha1 and Google Fonts.
+
