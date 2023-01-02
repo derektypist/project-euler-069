@@ -4,10 +4,12 @@ Euler's Totient function, &phi;(n) (sometimes called the phi function), is used 
 
 <table>
 <thead>
-<td>n</td>
-<td>Relatively Prime</td>
-<td>&phi;(n)</td>
-<td>n/&phi;(n)</td>
+<tr>
+<th>n</th>
+<th>Relatively Prime</th>
+<th>&phi;(n)</th>
+<th>n/&phi;(n)</th>
+</tr>
 </thead>
 <tr>
 <td>2</td>
@@ -73,7 +75,21 @@ Information at [Project Euler 069](https://projecteuler.net/problem=69)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 10 and 1000000 (without leading zeros) and select the Submit Button.  You will see the value of n &le; (number entered) for which n/&phi;(n) is a maximum as well as the number entered, unless you have made an invalid input.  Select the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 10 or greater than 1000000
+- Including leading zeros such as 010
+- Entering a number, but it is not an integer
+
+As a user, if I select the Reset Button, I can clear the information or start again.
 
 As a user, I expect the function `totientMaximum(10)` to return a number.
 
