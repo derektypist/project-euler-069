@@ -123,7 +123,7 @@ Ensure all user stories have been met.
 
 On the terminal, enter the command:
 
-`python3 -m http.server`, press `enter` and select `Open Preview`.
+`python3 -m http.server`, press `enter` and select `Open Preview`.  Input the numbers, Submit and check if the user stories have been met.  If the user stories have not been met, then check the typing.
 
 ## Deployment
 
