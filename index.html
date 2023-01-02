@@ -89,5 +89,22 @@
         <p>It can be seen that n=6 produces a maximum n/&phi;(n) for n &le; 10.</p>
         <p>Find the value of n &le; limit for which n/&phi;(n) is a maximum.  Begin by entering a number.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" placeholder="Enter whole number between 10 and 1000000 (without leading zeros)" title="Enter whole number between 10 and 1000000 (without leading zeros)" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>
