@@ -70,3 +70,23 @@ It can be seen that n=6, produces a maximum n/&phi;(n) for n &le; 10.
 Find the value of n &le; limit for which n/&phi;(n) is a maximum.
 
 Information at [Project Euler 069](https://projecteuler.net/problem=69)
+
+## UX
+
+**User Stories**
+
+As a user, I expect the function `totientMaximum(10)` to return a number.
+
+As a user, I expect the function `totientMaximum(10)` to return 6.
+
+As a user, I expect the function `totientMaximum(10000)` to return 2310.
+
+As a user, I expect the function `totientMaximum(500000)` to return 30030.
+
+As a user, I expect the function `totientMaximum(1000000)` to return 510510.
+
+User Stories on function `totientMaximum(limit)` taken from [FreeCodeCamp - Coding Interview Prep - Project Euler 069](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-69-totient-maximum)
+
+**Information Architecture**
+
+The function `totientMaximum(limit)` returns a number, where `limit` is a number.
