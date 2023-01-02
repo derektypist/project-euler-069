@@ -107,7 +107,7 @@ User Stories on function `totientMaximum(limit)` taken from [FreeCodeCamp - Codi
 
 **Information Architecture**
 
-The function `totientMaximum(limit)` returns a number, where `limit` is a number.
+The function `totientMaximum(limit)` returns a number, where `limit` is a number between 10 and 1000000.
 
 ## Features
 
