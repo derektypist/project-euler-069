@@ -15,3 +15,38 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to find the value of n ≤ limit, for which
+    n/φ(n) is a maximum.
+    totientMaximum(10)      returns 6
+    totientMaximum(10000)   returns 2310
+    totientMaximum(500000)  returns 30030
+    totientMaximum(1000000) returns 510510
+*/
+function totientMaximum(limit) {
+    function getSievePrimes(max) {
+        const primesMap = Array(max).fill(true);
+        primesMap[0] = false;
+        primesMap[1] = false;
+        const primes = [];
+        for (let i=2;i<max;i+=2) {
+            if (primesMap[i]) {
+                primes.push(i);
+                for (let j=i*i;j<max;j+=i) {
+                    primesMap[j] = false;
+                }
+            }
+            if (i===2) i=1;
+        }
+        return primesMap;
+    }
+
+    const MAX_PRIME = 50;
+    const primes = getSievePrimes(MAX_PRIME);
+    let result = 1;
+    for (let i=0;result*primes[i]<limit;i++) {
+        result *= primes[i];
+    }
+    return result;
+}
