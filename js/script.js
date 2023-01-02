@@ -8,7 +8,7 @@ function getNumberInfo() {
     if (isNaN(num) || num.length==0 || num<10 || num>1000000 || num[0]=="0" || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 10 and 1000000.  Do not include leading zeros.`;
     } else {
-        txt += `You have entered the number ${num}. <br>`;
+        txt += `You have entered the number ${num}.  `;
         txt += `Value of n ≤ ${num} for which n/φ(n) is a maximum is ${totientMaximum(num)}.`
     }
     
