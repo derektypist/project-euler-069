@@ -11,6 +11,7 @@ Euler's Totient function, &phi;(n) (sometimes called the phi function), is used 
 <th>n/&phi;(n)</th>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td>2</td>
 <td>1</td>
@@ -65,6 +66,7 @@ Euler's Totient function, &phi;(n) (sometimes called the phi function), is used 
 <td>4</td>
 <td>2.5</td>
 </tr>
+</tbody>
 </table>
 
 It can be seen that n=6, produces a maximum n/&phi;(n) for n &le; 10.
@@ -106,3 +108,7 @@ User Stories on function `totientMaximum(limit)` taken from [FreeCodeCamp - Codi
 **Information Architecture**
 
 The function `totientMaximum(limit)` returns a number, where `limit` is a number.
+
+## Features
+
+Allows the user to enter a number.
